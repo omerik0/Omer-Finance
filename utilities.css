@@ -1,0 +1,72 @@
+/* utilities */
+
+/* Text color */
+.text-primary{
+    color:#28a745;
+}
+/* buttons */
+.btn:hover{
+    opacity: 0.9;
+}
+.btn-primary{
+    background-color:#28a745;
+    padding: 10px 30px;
+    border-radius: 10px;
+    color: #fff;
+
+}
+.btn-secondary{
+    background-color:#0284d0;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+.btn-dark{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+.btn-light{
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+/* top-cases structure */
+.top{
+    text-align: center;
+    padding: 20px;
+    line-height: 4;
+}
+
+/* blog structure */
+.blog{
+    display: flex;
+}
+.blog img{width: 50%;}
+.blog .info-right{
+    background-color: #28a745;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+}
+.blog .info-right h1{
+    font-size: 2.5rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.blog .info-right a{
+    border: 1px solid #fff;
+    width: 150px;
+}
+#second-blog{
+    margin-top: 50px;
+}
+#second-blog .info-right{
+background-color: #0284d0;
+order: -1;
+}
+
