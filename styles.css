@@ -278,7 +278,7 @@ width: 100%;
 #page-blog3 .info-right{
     order: 1;
 }
-@media screen and (max-width:600px)
+@media screen and (max-width:450px)
 {
     #navbar{
         height: 140px;
