@@ -278,11 +278,14 @@ width: 100%;
 #page-blog3 .info-right{
     order: 1;
 }
-
-
-
-
-
+@media screen and (max-width:600px)
+{
+    #navbar{
+        height: 140px;
+    }
+    #navbar a{
+        padding: 10px;
+    }
 }
 
 
