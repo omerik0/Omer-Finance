@@ -187,9 +187,9 @@ width: 100%;
 #blog-page *{z-index: 10;}
 #blog-page #background{
     background: url(blog.jpg)no-repeat center center/cover;
-    height: 30vh;
+    height: 40vh;
     display: flex;
-    align-items: center;
+    align-items: end;
     justify-content: center;
    
     
@@ -206,6 +206,8 @@ width: 100%;
     text-align: center;
     color: #f4f4f4;
     font-size: 3rem;
+    z-index:0;
+    margin-bottom:5%;
    
 }
 /* first blog at page blog */
